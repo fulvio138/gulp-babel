@@ -1,0 +1,11 @@
+
+npm init -y //crea paquete json
+npm install --save-dev gulp //crea carpeta node_modules
+npm install babel-core babel-preset-es2015 --save-dev
+
+crear archivo .babelrc
+{
+   "presets": ["es2015"] 
+}
+
+npm install --save-dev gulp-babel
