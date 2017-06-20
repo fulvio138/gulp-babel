@@ -1,11 +1,11 @@
 
 npm init -y //crea paquete json
-npm install --save-dev gulp //crea carpeta node_modules
-npm install babel-core babel-preset-es2015 --save-dev
+npm install --save-dev gulp //crea carpeta node_modules para gulp donde se guardaran las dependencias y se incluiran en el package.json
+npm install babel-core babel-preset-es2015 --save-dev // instalamos babel
 
 crear archivo .babelrc
 {
    "presets": ["es2015"] 
 }
 
-npm install --save-dev gulp-babel
+npm install --save-dev gulp-babel // instalamos el plugin de babel
